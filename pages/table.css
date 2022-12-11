@@ -1,0 +1,39 @@
+body {
+	background-image: url(https://html.sammy-codes.com/images/background.jpg);
+}
+p {
+	color: #F4A460;
+	font-size: 50px;
+	font-weight: 700;
+	background-color: #9370DB;
+}
+table {
+	width: 60%;
+	height: 500px;
+	border: thick double blue;
+	background-color: azure;
+	border-collapse: collapse;
+	margin-right: 30px;
+}
+td,th,tr {
+	
+	border: thick double #00CED1;
+}
+tr:hover {
+	background-color: #DCDCDC;
+}
+th {
+	color: red;
+}
+td:hover {
+	background-color: lime;
+}
+th:hover {
+	background-color: lime;
+	text-transform: uppercase;
+}
+
+
+tr:nth-child(odd) {
+	background-color: #40E0D0;
+}

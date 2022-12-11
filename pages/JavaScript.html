@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+</head>
+<body>
+<script type="text/javascript">
+	/*alert('Привіт, JavaScript');
+	alert(2+2+2);
+	alert('Atention!!!');
+	let text;
+	let message;
+	text = 'Ocean';
+	message = text;
+	alert(message);
+	alert(text);
+	const MY_NAME = "Вячеслав";
+	const COLOR_GREEN = "#0F0";
+	let color =  COLOR_GREEN;
+	allert(color);
+	let user;
+	let name;
+	name = 'Вячеслав';
+	user = name;
+	alert(user);
+	let OurEarth, user;
+	OurEarth = 'Земля';
+	user = 'Василь';
+	alert(user);
+	alert(OurEarth);*/
+	let a=+prompt("Введіть значення a", "");
+	let b=+prompt("Введіть значення b", "");
+	let c=+prompt("Введіть значення c", "");
+	let x1=(-b+Math.sqrt(b*b-4*a*c))/(2*a);
+let x2=(-b-Math.sqrt(b*b-4*a*c))/(2*a);
+
+	let D = b*b-4*a*c;
+	alert(D);
+	if (D<0) {
+		alert("Рівняння розв'язків немає");
+	}
+	else if (D>0) {
+		alert("Рівняння має 2 розв'язки");
+	}
+	else if (D==0) {
+		alert("Рівняння має 1 розв'язок");
+	}
+document.writeln(x1,x2);
+</script>
+</body>
+</html>
